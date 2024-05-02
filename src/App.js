@@ -5,20 +5,25 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Exchange from "./pages/Exchange";
+import CoinContextProvider from "./context/CoinContextProvider";
 
 const App = () => {
   return (
-    <div>
-      <Header></Header>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contacts" element={<Contact />} />
-          <Route path="/*" element={<Home />} />
-        </Routes>
-      </Router>
-      <Footer></Footer>
-    </div>
+    <CoinContextProvider>
+      <div>
+        <Header></Header>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contacts" element={<Contact />} />
+            <Route path="/exchange" element={<Exchange />} />
+            <Route path="/*" element={<Home />} />
+          </Routes>
+        </Router>
+        <Footer></Footer>
+      </div>
+    </CoinContextProvider>
   );
 };
 

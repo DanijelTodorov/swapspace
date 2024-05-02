@@ -1,0 +1,220 @@
+[
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "medium",
+        "name": "SimpleSwap",
+        "path": "simpleswap"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "medium",
+        "name": "StealthEX",
+        "path": "stealthex"
+    },
+    {
+        "fixed": true,
+        "float": false,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Godex",
+        "path": "godex"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "medium",
+        "name": "ChangeNOW",
+        "path": "changenow"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": true,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "medium",
+        "name": "Changelly",
+        "path": "changelly"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Exolix",
+        "path": "exolix"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "EasyBit",
+        "path": "easybit"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": true,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "medium",
+        "name": "ChangeHero",
+        "path": "changehero"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Binance",
+        "path": "binance"
+    },
+    {
+        "fixed": true,
+        "float": false,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "n.exchange",
+        "path": "nexchange"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": true,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "LetsExchange",
+        "path": "letsexchange"
+    },
+    {
+        "fixed": true,
+        "float": false,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Alfacash",
+        "path": "alfacash"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Swapuz",
+        "path": "swapuz"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Quickex",
+        "path": "quickex"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "medium",
+        "name": "1inch",
+        "path": "oneinch"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [
+            "kp",
+            "us",
+            "ir",
+            "by",
+            "cu",
+            "er",
+            "sy"
+        ],
+        "kycLevel": "low",
+        "name": "SideShift",
+        "path": "sideshift"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": true,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "SWFT",
+        "path": "swft"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "CoinCraddle",
+        "path": "coincraddle"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Changee",
+        "path": "changee"
+    },
+    {
+        "fixed": true,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "ExWell",
+        "path": "exwell"
+    },
+    {
+        "fixed": false,
+        "float": true,
+        "reqFixedRefund": false,
+        "reqFloatRefund": false,
+        "prohibitedCountries": [],
+        "kycLevel": "low",
+        "name": "Quantex",
+        "path": "quantex"
+    }
+]
