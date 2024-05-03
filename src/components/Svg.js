@@ -22,7 +22,7 @@ export const SelectImage = () => {
   );
 };
 
-export const PairSwap = () => {
+export const PairSwapIcon = () => {
   return (
     <svg
       data-v-5f65eb7a=""
@@ -44,7 +44,7 @@ export const PairSwap = () => {
   );
 };
 
-export const Search = () => {
+export const SearchIcon = () => {
   return (
     <svg
       data-v-72e27fdb=""

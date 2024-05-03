@@ -2,8 +2,8 @@ const Button = ({ type, label, handleClick, className }) => {
   if ((type == 0))
     return (
       <div
-        className={`border-[1px] border-[#e35760] h-[50px] flex items-center justify-center rounded-md ${className}`}
-        onClick={() => handleClick}
+        className={`border-[1px] border-[#e35760] text-[#e35760] h-[50px] flex items-center justify-center rounded-md ${className}`}
+        onClick={() => handleClick()}
       >
         {label}
       </div>
@@ -12,7 +12,7 @@ const Button = ({ type, label, handleClick, className }) => {
     return (
       <div
         className={`bg-[#e35760] h-[50px] flex items-center justify-center rounded-md ${className}`}
-        onClick={() => handleClick}
+        onClick={() => handleClick()}
       >
         {label}
       </div>
